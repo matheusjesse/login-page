@@ -12,7 +12,7 @@ export default function Home() {
           </label>
           <label htmlFor="password" className="text-slate-800 w-72 h-18 flex flex-col mb-6">
             Senha
-            <input className="shadow-sm border w-72 h-9 mt-2 rounded" type='text' name="password" id="password"/>
+            <input type="password" className="shadow-sm border w-72 h-9 mt-2 rounded" name="password" id="password"/>
           </label>
           <button className="shadow hover:shadow-md hover:bg-indigo-600 bg-indigo-500 rounded text-white w-40 h-8">Entrar</button>
         </form>
