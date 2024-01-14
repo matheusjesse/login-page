@@ -1,8 +1,8 @@
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className=' border flex flex-wrap w-80 bg-white h-96 shadow-md rounded-lg'>
+    <main className="flex min-h-screen flex-col items-center justify-center p-24">
+      <div className=' border flex flex-wrap w-80 bg-transparent h-96 shadow-md rounded-lg'>
         <form className=" flex flex-wrap justify-center items-center content-center">
           <h1 className="text-slate-700 text-center w-80 mb-9">Login</h1>
           <label htmlFor="email" className="text-slate-700 w-72 h-18 flex flex-col mb-6">
