@@ -7,7 +7,8 @@ export default function Home() {
           <h1 className="text-slate-800 text-center w-80 mb-9">Login</h1>
           <label htmlFor="email" className="text-slate-800 w-72 h-18 flex flex-col mb-6">
             Email
-            <input className="shadow-sm border w-72 h-9 mt-2 rounded" type='text' name="email" id="email"/>
+            <input className="shadow-sm border w-72 h-9 mt-2 rounded" type='text' name="email" id="email">
+            </input>
           </label>
           <label htmlFor="password" className="text-slate-800 w-72 h-18 flex flex-col mb-6">
             Senha
